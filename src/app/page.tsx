@@ -57,7 +57,7 @@ export default function Home() {
           estamos ansiosos para compartilhar este momento especial com cada um
           de vocês.
         </p>
-        <Button asChild className="mt-6 md:mt-10">
+        <Button asChild className="mt-6 md:mt-10 px-4 py-4">
           {/* <EnvelopeOpenIcon className="mr-2 h-4 w-4" /> */}
           <Link
             href={
@@ -129,7 +129,7 @@ export default function Home() {
         <Button
           asChild
           variant="destructive"
-          className="mt-8 md:mt-16 py-10 px-20"
+          className="mt-8 md:mt-16 py-8 px-16"
         >
           <Link href={'https://wa.me/5515981563139'} target="blank">
             CONFIRMAR PRESENÇA
