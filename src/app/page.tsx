@@ -123,9 +123,6 @@ export default function Home() {
         <h2 className="text-2xl md:text-5xl font-bold dark:text-white">
           Confirmar presença
         </h2>
-        <p className="text-xl mt-8 md:mt-16 md:text-xl dark:text-neutral-200">
-          Confirmar sua presença até dia 1 de março.
-        </p>
         <Button
           asChild
           variant="destructive"
@@ -145,8 +142,8 @@ export default function Home() {
           <AccordionItem value="item-1">
             <AccordionTrigger>O que devo levar?</AccordionTrigger>
             <AccordionContent>
-              Aquele kit churrasco tradicional - uma pequena contribuição de
-              carne/linguiça/frango e a bebida de sua preferência.
+              Uma pequena contribuição para o churrasco e a bebida de sua
+              preferência. Não me vai trazer um cavalo recheado de provolone...
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-2">
@@ -173,14 +170,6 @@ export default function Home() {
             <AccordionContent>
               <strong>Quando:</strong> 9 de março. <br />
               <strong>Onde:</strong> Rua Luiz Silva Rodrigues, 241, Mangal.
-            </AccordionContent>
-          </AccordionItem>
-          <AccordionItem value="item-5">
-            <AccordionTrigger>
-              Até quando devo confirmar minha presença?
-            </AccordionTrigger>
-            <AccordionContent className="text-left">
-              Preferencialmente até dia 1 de março.
             </AccordionContent>
           </AccordionItem>
         </Accordion>
